@@ -14,7 +14,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'https://code-forntend.vercel.app',
+    origin: ['http://localhost:3000', 'https://code-forntend.vercel.app'],
            credentials: true 
 }))
 
